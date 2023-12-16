@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=# , initial-scale=1.0">
+    <title>To do List</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .todo-list {
+            margin: 0   auto;
+            padding: 10px;
+            width: 500px;
+        }
+        .todo-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        .todo-item  input[type="checkbox"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Todo List</h1>
+    <input type="text" id = "new-todo" placeholder="Enter new task">
+    <button id="add-todo"> Submit </button>
+    <div class="todo-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>

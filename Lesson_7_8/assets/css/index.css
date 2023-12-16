@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/680/429/large/nova-ashbell-sc01-03.jpg?1476361405");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%
+    
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+.container{
+    background-image: url("https://media.giphy.com/media/G0Odfjd78JTpu/giphy.gif");
+    width: 400px;
+    border-radius: 5px;
+    margin: 0px auto;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+}
+.search-bar {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.search-icon {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    cursor:pointer;
+}
+.search-icon:hover {
+    color: #cacaca
+}
+
+#search-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    height: 20px;
+    color: white
+}
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    height: 50vh;
+    padding: 80px 50px;
+}
+.city-name {
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.weather-state {
+    font-size: 13px;
+}
+.weather-icon {
+    width: 70px;
+    height: 70px;
+}
+.temperature {
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1;
+    position: relative;
+}
